@@ -25,18 +25,20 @@ export default function About() {
               A producer&rsquo;s eye for marketing that actually ships.
             </h1>
             <p className="mt-6 max-w-xl text-cream/80">
-              I got my start producing film festival programming and
-              coordinating trade show activations for an international
-              medical device brand, and I&rsquo;ve been drawn to the
-              logistics of live marketing ever since. I care about the
-              details other people skip: the sponsor contract, the vendor
-              timeline, the backup plan for the backup plan.
+              I&rsquo;m currently a Global Marketing Events Specialist at
+              Aspen Medical Products, where I plan and run corporate events,
+              trade shows, and international meetings end-to-end. I got my
+              start producing film festival programming and coordinating
+              trade show activations for an international medical device
+              brand, and I&rsquo;ve been drawn to the logistics of live
+              marketing ever since.
             </p>
             <p className="mt-4 max-w-xl text-cream/80">
-              Today I bring that production discipline to global marketing
-              events, translating brand strategy into experiences that run
-              smoothly and leave a lasting impression on everyone in the
-              room.
+              I care about the details other people skip: the sponsor
+              contract, the vendor timeline, the backup plan for the backup
+              plan. That production discipline is what turns brand strategy
+              into experiences that run smoothly and leave a lasting
+              impression on everyone in the room.
             </p>
             <div className="mt-8">
               <Button href="/kelsey-johnston-resume.pdf" download variant="secondary">

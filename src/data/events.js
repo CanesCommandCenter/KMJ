@@ -3,7 +3,7 @@ export const events = [
     slug: "newport-beach-film-festival",
     title: "Newport Beach Film Festival",
     location: "Newport Beach, CA",
-    year: "2019 – Present",
+    year: "2019 – 2021",
     summary:
       "Produced and led a team of interns for one of Southern California's premier film festivals, from sponsor contracts to live virtual Q&As.",
     details: [
@@ -23,7 +23,7 @@ export const events = [
       "Led marketing production for a medical device manufacturer's international trade show presence and product rollout.",
     details: [
       "Led design of a promotional trade show display built specifically for the European market.",
-      "Composed a press release announcing Sechrist's partnership with Dartmouth College.",
+      "Wrote the press release announcing Sechrist's partnership with Dartmouth College, which was picked up by Business Insider.",
       "Redesigned and updated company website content, imagery, and copy.",
       "Managed development of new product brochures for the sales team.",
       "Co-wrote and led development of a setup manual for a new Sechrist product line.",

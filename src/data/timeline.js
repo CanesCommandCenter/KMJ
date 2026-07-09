@@ -1,19 +1,43 @@
 export const timeline = [
   {
-    years: "2019 – Present",
+    years: "January 2024 – Present",
+    role: "Global Marketing Events Specialist",
+    org: "Aspen Medical Products",
+    location: "Irvine, CA",
+    description:
+      "Plans and coordinates global corporate events, trade shows, and international meetings end-to-end, managing vendor relationships, shipping logistics, and cross-functional communication with internal and external partners.",
+  },
+  {
+    years: "September 2021 – January 2024",
+    role: "Event & Marketing Specialist",
+    org: "Aspen Medical Products",
+    location: "Irvine, CA",
+    description:
+      "Supported global marketing initiatives and event logistics, coordinating promotional materials, brand assets, and on-site execution for corporate events and outings.",
+  },
+  {
+    years: "September 2019 – February 2020",
+    role: "Marketing Communications Coordinator",
+    org: "Sechrist Industries",
+    location: "Anaheim, CA",
+    description:
+      "Led press releases, marketing collateral, and trade show materials for the European market, including a Dartmouth College partnership announcement picked up by Business Insider.",
+  },
+  {
+    years: "April 2018 – September 2019",
+    role: "Marketing and Communications Assistant",
+    org: "Sechrist Industries",
+    location: "Anaheim, CA",
+    description:
+      "Supported website content curation and redesigns, and partnered with a third-party advertising firm on product videos and brochures.",
+  },
+  {
+    years: "2019 – 2021",
     role: "Producer / Team Lead of Interns",
     org: "Newport Beach Film Festival",
     location: "Newport Beach, CA",
     description:
       "Lead programmer for festival screenings, manager of virtual Q&A production, and drafter of sponsor and partner contracts.",
-  },
-  {
-    years: "2018 – 2020",
-    role: "Marketing Intern / Assistant",
-    org: "Sechrist Industries",
-    location: "Anaheim, CA",
-    description:
-      "Led press, brochure, and trade show materials for a global medical device manufacturer, including its European market presence.",
   },
   {
     years: "2018 – 2019",
@@ -22,30 +46,6 @@ export const timeline = [
     location: "Ontario, CA",
     description:
       "Managed team and mascot social accounts, producing game-day content and tracking engagement across platforms.",
-  },
-  {
-    years: "2015 – 2018",
-    role: "Marketing Intern / Coordinator",
-    org: "REELLAB",
-    location: "Newport Beach, CA",
-    description:
-      "Built out social presence and audience-facing content for a creative studio, working directly with artists.",
-  },
-  {
-    years: "2015",
-    role: "Co-Leader",
-    org: "Calvary Church Moldova Mission Trip",
-    location: "Moldova",
-    description:
-      "Coordinated lessons, events, and fundraising for a mission providing education and resources to at-risk children.",
-  },
-  {
-    years: "2011 – 2013",
-    role: "Student Marketing Team",
-    org: "Orange Coast College",
-    location: "Costa Mesa, CA",
-    description:
-      "Promoted campus events on social media and led safety coordination for the college crew team.",
   },
 ];
 
@@ -62,18 +62,18 @@ export const education = [
     school: "Orange Coast College",
     location: "Costa Mesa, CA",
     year: "May 2014",
-    note: "Captain, Women's Crew Team · Heart & Hustle Award · Dean's List",
   },
 ];
 
 export const skills = [
-  "Event Strategy & Production",
-  "Sponsorship & Partner Contracts",
+  "Global Event Strategy & Production",
+  "Trade Show & Corporate Meeting Planning",
+  "Public Relations & Press Releases",
+  "Vendor & Cross-Functional Communication",
   "Social Media Management",
+  "Content Creation & Copywriting",
   "Google Analytics",
   "Hootsuite & Sprout Social",
   "Adobe Creative Suite (Photoshop, Premiere)",
-  "Mailchimp Email Campaigns",
-  "iMovie & Camtasia",
   "Microsoft Office Suite",
 ];
