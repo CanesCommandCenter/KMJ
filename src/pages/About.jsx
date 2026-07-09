@@ -5,6 +5,7 @@ import Button from "../components/ui/Button";
 import FadeIn from "../components/ui/FadeIn";
 import { timeline, education, skills } from "../data/timeline";
 import headshot from "../assets/images/kelsey-headshot.jpg";
+import OpenToWorkBadge from "../components/ui/OpenToWorkBadge";
 
 export default function About() {
   return (
@@ -18,7 +19,8 @@ export default function About() {
       <Section bg="navy" className="pt-28 md:pt-36" containerClassName="py-0 pb-20 md:pb-24">
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-[minmax(0,1fr)_320px]">
           <FadeIn>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold">
+            <OpenToWorkBadge />
+            <p className="mt-6 text-sm font-semibold uppercase tracking-[0.3em] text-gold">
               About Kelsey
             </p>
             <h1 className="mt-4 font-display text-4xl font-semibold md:text-5xl">

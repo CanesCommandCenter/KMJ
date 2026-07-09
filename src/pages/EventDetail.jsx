@@ -60,7 +60,7 @@ export default function EventDetail() {
         </div>
 
         <FadeIn delay={0.15} className="mt-16 text-center">
-          <Button to="/contact">Plan Your Next Event</Button>
+          <Button to="/contact">Let&rsquo;s Connect</Button>
         </FadeIn>
       </Section>
     </>

@@ -63,7 +63,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact"
-        description="Get in touch with Kelsey Johnston to discuss your next marketing event, sponsorship activation, or global campaign."
+        description="Get in touch with Kelsey Johnston about global marketing and events opportunities."
       />
 
       <Section bg="navy" className="pt-28 md:pt-36" containerClassName="py-0 pb-20 md:pb-24">
@@ -72,11 +72,11 @@ export default function Contact() {
             Contact
           </p>
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold md:text-5xl">
-            Let&rsquo;s plan something great.
+            Let&rsquo;s talk about what&rsquo;s next.
           </h1>
           <p className="mt-6 max-w-xl text-cream/80">
-            Tell me about your event and I&rsquo;ll get back to you within a
-            couple of business days.
+            Tell me a bit about the opportunity and I&rsquo;ll get back to
+            you within 24 hours.
           </p>
         </FadeIn>
       </Section>

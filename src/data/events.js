@@ -18,7 +18,7 @@ export const events = [
     slug: "sechrist-industries-product-launch",
     title: "Sechrist Industries Product Launch & Trade Show",
     location: "Anaheim, CA → European Market",
-    year: "2018 – 2020",
+    year: "April 2018 – February 2020",
     summary:
       "Led marketing production for a medical device manufacturer's international trade show presence and product rollout.",
     details: [
@@ -41,19 +41,6 @@ export const events = [
       "Managed all social media accounts for both the team and mascot brand.",
       "Created game-day and campaign content using Adobe Photoshop for Instagram, Twitter, and Facebook.",
       "Applied Google Analytics, Sprout Social, and Hootsuite to track engagement and inform content strategy.",
-    ],
-  },
-  {
-    slug: "reellab-brand-content",
-    title: "REELLAB Community & Content Program",
-    location: "Newport Beach, CA",
-    year: "2015 – 2018",
-    summary:
-      "Built out a creative studio's social presence and audience-facing digital touchpoints from the ground up.",
-    details: [
-      "Created and managed the REELLAB Instagram page, including original content creation.",
-      "Collaborated directly with artists and audience members to resolve website issues.",
-      "Composed instructional tutorials using Camtasia and ran email campaigns through Mailchimp.",
     ],
   },
 ];

@@ -16,11 +16,11 @@ export default function Footer() {
         <div className="flex flex-col items-start justify-between gap-10 border-b border-cream/10 pb-12 md:flex-row md:items-center">
           <div>
             <h3 className="font-display text-2xl font-semibold">
-              Let&rsquo;s bring your next event to life.
+              Let&rsquo;s connect about what&rsquo;s next.
             </h3>
             <p className="mt-2 max-w-md text-cream/70">
-              Global marketing and event strategy, from first concept to final
-              wrap.
+              Global marketing and event strategy &mdash; open to new
+              opportunities.
             </p>
           </div>
           <Button to="/contact" variant="primary">

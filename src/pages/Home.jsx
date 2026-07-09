@@ -6,6 +6,7 @@ import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
 import FadeIn from "../components/ui/FadeIn";
 import PlaceholderImage from "../components/ui/PlaceholderImage";
+import OpenToWorkBadge from "../components/ui/OpenToWorkBadge";
 import { expertise } from "../data/expertise";
 import { events } from "../data/events";
 import headshot from "../assets/images/kelsey-headshot.jpg";
@@ -17,22 +18,23 @@ export default function Home() {
     <>
       <SEO
         title="Global Marketing Events Specialist"
-        description="Kelsey Johnston plans, produces, and activates global marketing events that turn big ideas into unforgettable experiences."
+        description="Kelsey Johnston is a Global Marketing Events Specialist leading corporate events and trade shows end-to-end, currently open to new opportunities in global event strategy."
       />
 
       {/* Hero */}
       <Section bg="navy" className="pt-28 md:pt-36" containerClassName="py-0 pb-24 md:pb-32">
         <FadeIn>
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold">
+          <OpenToWorkBadge />
+          <p className="mt-6 text-sm font-semibold uppercase tracking-[0.3em] text-gold">
             Global Marketing Events Specialist
           </p>
           <h1 className="mt-6 max-w-3xl font-display text-5xl font-semibold leading-tight md:text-6xl">
             Kelsey Johnston
           </h1>
           <p className="mt-6 max-w-xl text-lg text-cream/80">
-            I plan, produce, and activate marketing events that turn ambitious
-            ideas into experiences audiences remember, from the first
-            sponsor call to the final wrap.
+            I lead global marketing events end-to-end &mdash; from early
+            planning through the final wrap &mdash; turning ambitious ideas
+            into experiences audiences remember.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Button to="/contact">
