@@ -1,6 +1,7 @@
-import { GraduationCap, CheckCircle2 } from "lucide-react";
+import { GraduationCap, CheckCircle2, Download } from "lucide-react";
 import SEO from "../components/layout/SEO";
 import Section from "../components/ui/Section";
+import Button from "../components/ui/Button";
 import FadeIn from "../components/ui/FadeIn";
 import { timeline, education, skills } from "../data/timeline";
 import headshot from "../assets/images/kelsey-headshot.jpg";
@@ -37,6 +38,11 @@ export default function About() {
               smoothly and leave a lasting impression on everyone in the
               room.
             </p>
+            <div className="mt-8">
+              <Button href="/kelsey-johnston-resume.pdf" download variant="secondary">
+                Download Resume <Download className="h-4 w-4" />
+              </Button>
+            </div>
           </FadeIn>
           <FadeIn direction="left" delay={0.1}>
             <img

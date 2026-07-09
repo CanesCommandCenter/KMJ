@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import SEO from "../components/layout/SEO";
 import Section from "../components/ui/Section";
 import Card from "../components/ui/Card";
@@ -34,9 +34,12 @@ export default function Home() {
             ideas into experiences audiences remember, from the first
             sponsor call to the final wrap.
           </p>
-          <div className="mt-10">
+          <div className="mt-10 flex flex-wrap gap-4">
             <Button to="/contact">
               Start a Conversation <ArrowRight className="h-4 w-4" />
+            </Button>
+            <Button href="/kelsey-johnston-resume.pdf" download variant="secondary">
+              Download Resume <Download className="h-4 w-4" />
             </Button>
           </div>
         </FadeIn>

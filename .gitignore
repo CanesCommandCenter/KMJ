@@ -20,8 +20,9 @@ dist-ssr
 # Cloudflare
 .wrangler
 
-# Original source asset (already copied into src/assets/images)
+# Original source assets (already copied into src/assets/images and public/)
 Kelsey HS.jfif
+Kelsey Johnston Resume.docx
 
 # Local editor/tooling config
 .claude
