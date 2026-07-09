@@ -19,9 +19,9 @@ src/
   components/
     layout/      Navbar, Footer, Layout, ScrollToTop, SEO
     ui/           Button, Card, Section, FadeIn, PlaceholderImage, LinkedInIcon
-  pages/          One file per route (Home, About, Services, Events, EventDetail,
-                   Testimonials, Contact, NotFound)
-  data/           Content arrays (expertise, services, events, testimonials, timeline)
+  pages/          One file per route (Home, About, Events, EventDetail,
+                   Contact, NotFound)
+  data/           Content arrays (expertise, events, timeline)
   assets/images/  Headshot and other images
 public/
   _redirects      Cloudflare Pages SPA fallback (required for client-side routing)
@@ -51,7 +51,6 @@ Without a key configured, the form will show a friendly error and point visitors
 ## Placeholder Content
 
 - **Event photos** use a labeled placeholder component (`PlaceholderImage`) sized to the correct aspect ratio — drop in real photos later by replacing the component usage in `src/pages/Events.jsx`, `src/pages/EventDetail.jsx`, and `src/pages/Home.jsx` with an `<img>` tag.
-- **Testimonials** (`src/data/testimonials.js`) are placeholder quotes clearly marked as such — swap in real client/colleague quotes when available.
 
 ## Deploying to Cloudflare Pages
 
