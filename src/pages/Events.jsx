@@ -39,17 +39,17 @@ export default function Events() {
                   aspect="aspect-[16/10]"
                 />
                 <div className="mt-5">
-                  <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gold">
+                  <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gold-dark">
                     <MapPin className="h-3.5 w-3.5" />
                     {event.location} &middot; {event.year}
                   </div>
-                  <h3 className="mt-2 text-xl font-semibold text-navy group-hover:text-gold">
+                  <h3 className="mt-2 text-xl font-semibold text-navy group-hover:text-gold-dark">
                     {event.title}
                   </h3>
                   <p className="mt-2 text-sm text-charcoal/70">
                     {event.summary}
                   </p>
-                  <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-navy group-hover:text-gold">
+                  <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-navy group-hover:text-gold-dark">
                     View case study <ArrowRight className="h-4 w-4" />
                   </span>
                 </div>

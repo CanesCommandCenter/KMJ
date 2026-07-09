@@ -53,7 +53,7 @@ export default function Home() {
             />
           </FadeIn>
           <FadeIn direction="left" delay={0.1}>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold-dark">
               About Kelsey
             </p>
             <h2 className="mt-4 text-3xl font-semibold text-navy md:text-4xl">
@@ -68,7 +68,7 @@ export default function Home() {
             </p>
             <Link
               to="/about"
-              className="mt-6 inline-flex items-center gap-2 font-semibold text-navy hover:text-gold"
+              className="mt-6 inline-flex items-center gap-2 font-semibold text-navy hover:text-gold-dark"
             >
               More about my background <ArrowRight className="h-4 w-4" />
             </Link>
@@ -79,7 +79,7 @@ export default function Home() {
       {/* Expertise */}
       <Section bg="creamDark">
         <FadeIn>
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold-dark">
             What I Do
           </p>
           <h2 className="mt-4 max-w-2xl text-3xl font-semibold text-navy md:text-4xl">
@@ -90,7 +90,7 @@ export default function Home() {
           {expertise.map(({ icon: Icon, title, description }, index) => (
             <FadeIn key={title} delay={index * 0.08}>
               <Card className="h-full">
-                <Icon className="h-8 w-8 text-gold" strokeWidth={1.5} />
+                <Icon className="h-8 w-8 text-gold-dark" strokeWidth={1.5} />
                 <h3 className="mt-5 text-lg font-semibold text-navy">
                   {title}
                 </h3>
@@ -106,7 +106,7 @@ export default function Home() {
         <FadeIn>
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold">
+              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold-dark">
                 Selected Work
               </p>
               <h2 className="mt-4 text-3xl font-semibold text-navy md:text-4xl">
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
             <Link
               to="/events"
-              className="inline-flex items-center gap-2 font-semibold text-navy hover:text-gold"
+              className="inline-flex items-center gap-2 font-semibold text-navy hover:text-gold-dark"
             >
               View all events <ArrowRight className="h-4 w-4" />
             </Link>
@@ -127,7 +127,7 @@ export default function Home() {
             <FadeIn key={event.slug} delay={index * 0.08}>
               <Link to={`/events/${event.slug}`} className="group block">
                 <PlaceholderImage label={`${event.title} — photo placeholder`} />
-                <h3 className="mt-4 text-lg font-semibold text-navy group-hover:text-gold">
+                <h3 className="mt-4 text-lg font-semibold text-navy group-hover:text-gold-dark">
                   {event.title}
                 </h3>
                 <p className="text-sm text-charcoal/60">{event.location}</p>

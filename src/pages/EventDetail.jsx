@@ -51,7 +51,7 @@ export default function EventDetail() {
             <ul className="mt-6 space-y-4">
               {event.details.map((detail) => (
                 <li key={detail} className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-gold" />
+                  <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-gold-dark" />
                   <span className="text-charcoal/80">{detail}</span>
                 </li>
               ))}

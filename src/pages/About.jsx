@@ -51,7 +51,7 @@ export default function About() {
       {/* Timeline */}
       <Section bg="cream">
         <FadeIn>
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gold-dark">
             Career Path
           </p>
           <h2 className="mt-4 text-3xl font-semibold text-navy md:text-4xl">
@@ -63,7 +63,7 @@ export default function About() {
           {timeline.map((item, index) => (
             <FadeIn key={`${item.org}-${item.years}`} delay={index * 0.05} className="relative">
               <span className="absolute -left-[41px] top-1.5 h-3 w-3 rounded-full bg-gold" />
-              <p className="text-sm font-semibold uppercase tracking-wide text-gold">
+              <p className="text-sm font-semibold uppercase tracking-wide text-gold-dark">
                 {item.years}
               </p>
               <h3 className="mt-1 text-lg font-semibold text-navy">
@@ -81,7 +81,7 @@ export default function About() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
           <FadeIn>
             <div className="flex items-center gap-3">
-              <GraduationCap className="h-7 w-7 text-gold" />
+              <GraduationCap className="h-7 w-7 text-gold-dark" />
               <h2 className="text-2xl font-semibold text-navy">Education</h2>
             </div>
             <div className="mt-6 space-y-6">
@@ -101,7 +101,7 @@ export default function About() {
 
           <FadeIn delay={0.1}>
             <div className="flex items-center gap-3">
-              <CheckCircle2 className="h-7 w-7 text-gold" />
+              <CheckCircle2 className="h-7 w-7 text-gold-dark" />
               <h2 className="text-2xl font-semibold text-navy">
                 Skills & Expertise
               </h2>

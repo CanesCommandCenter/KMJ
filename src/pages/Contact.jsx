@@ -172,14 +172,14 @@ export default function Contact() {
                     href="mailto:kmjohnston92@gmail.com"
                     className="flex items-center gap-3 text-charcoal/80 hover:text-navy"
                   >
-                    <Mail className="h-5 w-5 text-gold" />
+                    <Mail className="h-5 w-5 text-gold-dark" />
                     kmjohnston92@gmail.com
                   </a>
                   <a
                     href="tel:+17144693723"
                     className="flex items-center gap-3 text-charcoal/80 hover:text-navy"
                   >
-                    <Phone className="h-5 w-5 text-gold" />
+                    <Phone className="h-5 w-5 text-gold-dark" />
                     (714) 469-3723
                   </a>
                 </div>
