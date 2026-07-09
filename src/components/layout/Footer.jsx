@@ -5,9 +5,7 @@ import LinkedInIcon from "../ui/LinkedInIcon";
 
 const links = [
   { to: "/about", label: "About" },
-  { to: "/services", label: "Services" },
   { to: "/events", label: "Events" },
-  { to: "/testimonials", label: "Testimonials" },
   { to: "/contact", label: "Contact" },
 ];
 

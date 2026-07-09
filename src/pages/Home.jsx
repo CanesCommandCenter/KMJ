@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Quote } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import SEO from "../components/layout/SEO";
 import Section from "../components/ui/Section";
 import Card from "../components/ui/Card";
@@ -8,12 +8,10 @@ import FadeIn from "../components/ui/FadeIn";
 import PlaceholderImage from "../components/ui/PlaceholderImage";
 import { expertise } from "../data/expertise";
 import { events } from "../data/events";
-import { testimonials } from "../data/testimonials";
 import headshot from "../assets/images/kelsey-headshot.jpg";
 
 export default function Home() {
   const featuredEvents = events.slice(0, 3);
-  const testimonial = testimonials[0];
 
   return (
     <>
@@ -137,25 +135,6 @@ export default function Home() {
             </FadeIn>
           ))}
         </div>
-      </Section>
-
-      {/* Testimonial snippet */}
-      <Section bg="navy">
-        <FadeIn className="mx-auto max-w-3xl text-center">
-          <Quote className="mx-auto h-8 w-8 text-gold" />
-          <p className="mt-6 font-display text-2xl leading-relaxed md:text-3xl">
-            &ldquo;{testimonial.quote}&rdquo;
-          </p>
-          <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-gold">
-            {testimonial.name} &middot; {testimonial.title}, {testimonial.company}
-          </p>
-          <Link
-            to="/testimonials"
-            className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-cream/80 hover:text-gold"
-          >
-            Read more testimonials <ArrowRight className="h-4 w-4" />
-          </Link>
-        </FadeIn>
       </Section>
     </>
   );
