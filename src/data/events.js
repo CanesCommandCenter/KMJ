@@ -39,6 +39,10 @@ export const events = [
         src: "/images/events/aspen-nsm-2026/06-leadership-panel.jpg",
         alt: "Leadership panel discussion on stage",
       },
+      {
+        src: "/images/events/aspen-nsm-2026/07-lawn-games-evening.jpg",
+        alt: "Evening lawn reception with games and string lights",
+      },
     ],
   },
   {
