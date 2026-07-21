@@ -1,7 +1,49 @@
 export const events = [
   {
+    slug: "aspen-national-sales-meeting-2026",
+    title: "Aspen Medical Products National Sales Meeting (2026)",
+    location: "Huntington Beach, CA",
+    year: "March 2026",
+    summary:
+      "Produced Aspen Medical Products' 2026 national sales meeting, an aviation-themed “Squadron” program featuring a branded welcome experience and an oceanfront reception in Huntington Beach.",
+    details: [
+      "Designed and produced a “Squadron” aviation theme carried through signage, staging, and a “Mission Ready” welcome experience.",
+      "Organized a “Call Signs” team-building activity assigning personalized call signs to attendees.",
+      "Produced an oceanfront welcome reception in Huntington Beach, including a branded “Flight Fuel” bar.",
+      "Coordinated clinical education sessions and a leadership panel alongside evening receptions across the multi-day program.",
+      "Managed on-site vendor coordination, staging, and branded environmental design across the event.",
+    ],
+    coverPhoto: "/images/events/aspen-nsm-2026/04-sunset-reception.jpg",
+    photos: [
+      {
+        src: "/images/events/aspen-nsm-2026/01-mission-ready-entrance.jpg",
+        alt: "Squadron-themed entrance with Mission Ready and Flight Fuel signage",
+      },
+      {
+        src: "/images/events/aspen-nsm-2026/02-call-signs-booth.jpg",
+        alt: "Call Signs assignment booth",
+      },
+      {
+        src: "/images/events/aspen-nsm-2026/03-squadron-backdrop.jpg",
+        alt: "26 NSM Squadron-themed jet formation backdrop",
+      },
+      {
+        src: "/images/events/aspen-nsm-2026/04-sunset-reception.jpg",
+        alt: "Oceanfront welcome reception at sunset with a Flight Fuel branded bar",
+      },
+      {
+        src: "/images/events/aspen-nsm-2026/05-general-session.jpg",
+        alt: "General session with clinical education content on screen",
+      },
+      {
+        src: "/images/events/aspen-nsm-2026/06-leadership-panel.jpg",
+        alt: "Leadership panel discussion on stage",
+      },
+    ],
+  },
+  {
     slug: "aspen-national-sales-meeting-2022",
-    title: "Aspen Medical Products National Sales Meeting",
+    title: "Aspen Medical Products National Sales Meeting (2022)",
     location: "Huntington Beach, CA",
     year: "March 2022",
     summary:
