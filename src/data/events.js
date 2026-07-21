@@ -46,6 +46,108 @@ export const events = [
     ],
   },
   {
+    slug: "aspen-regional-sales-meeting-2025",
+    title: "Aspen Medical Products Regional Sales Meeting (2025)",
+    location: "San Juan Capistrano, CA",
+    year: "March 2025",
+    summary:
+      "Produced Aspen Medical Products' 2025 Regional Sales Meeting, a “Ride for the Brand” western-ranch theme at the Inn at the Mission in San Juan Capistrano, culminating in “The ASPYs” awards dinner.",
+    details: [
+      "Designed and produced a “Ride for the Brand” western-ranch theme carried through signage, welcome gifts, and branded ranch-role name tags.",
+      "Produced an evening welcome reception with a live band and themed decor.",
+      "Coordinated a “Watering Hole” themed bar and “The ASPYs” awards dinner recognizing top performance.",
+      "Managed venue logistics, catering, floral design, and staging at the Inn at the Mission.",
+      "Organized supplemental activities, including a wine tasting and a memory photo board for attendees.",
+    ],
+    coverPhoto: "/images/events/aspen-rsm-2025/08-venue-entrance.jpg",
+    photos: [
+      {
+        src: "/images/events/aspen-rsm-2025/01-welcome-table.jpg",
+        alt: "Welcome table with personalized gift bags and Ride for the Brand banner",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/02-hats-and-materials.jpg",
+        alt: "Cowboy hats with Aspen Medical Products folder and venue brochure",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/03-welcome-bags.jpg",
+        alt: "Personalized welcome bags with ranch-themed role name tags",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/04-band-performance.jpg",
+        alt: "Live band performing at the welcome reception",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/05-reception-crowd.jpg",
+        alt: "Attendees at the evening welcome reception",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/06-ranch-code.jpg",
+        alt: "AMP Ranch Code values card",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/07-ride-for-the-brand-sign.jpg",
+        alt: "Ride for the Brand sign",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/08-venue-entrance.jpg",
+        alt: "Inn at the Mission entrance in San Juan Capistrano",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/09-wine-tasting.jpg",
+        alt: "Wine tasting flight",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/10-photo-memory-board.jpg",
+        alt: "Instant photo memory board",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/11-ranch-entrance-decor.jpg",
+        alt: "Ranch-themed entrance decor with wine barrels",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/12-ranch-sign-daytime.jpg",
+        alt: "Aspen Ranch themed entrance signage",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/13-banquet-room.jpg",
+        alt: "Banquet room set for The ASPYs awards dinner",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/14-table-setting.jpg",
+        alt: "Formal table setting with floral centerpiece",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/15-floral-centerpiece.jpg",
+        alt: "Floral centerpiece detail",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/16-watering-hole-bar.jpg",
+        alt: "Watering Hole themed bar",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/17-place-card.jpg",
+        alt: "The ASPYs place card at table setting",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/18-ride-for-the-brand-decor.jpg",
+        alt: "Ride for the Brand sign with cowhide rug decor",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/19-aspys-easel.jpg",
+        alt: "The ASPYs easel sign with hay bale seating",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/20-awards-presenters.jpg",
+        alt: "Leadership presenting at The ASPYs awards ceremony",
+      },
+      {
+        src: "/images/events/aspen-rsm-2025/21-aspys-title-slide.jpg",
+        alt: "The ASPYs title slide on screen",
+      },
+    ],
+  },
+  {
     slug: "aspen-national-sales-meeting-2022",
     title: "Aspen Medical Products National Sales Meeting (2022)",
     location: "Huntington Beach, CA",
