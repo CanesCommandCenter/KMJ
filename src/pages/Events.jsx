@@ -11,7 +11,7 @@ export default function Events() {
     <>
       <SEO
         title="Events"
-        description="Explore Kelsey Johnston's portfolio of marketing events and production work, from film festivals to international trade shows."
+        description="Explore Kelsey Johnston's portfolio of national and regional sales meetings produced for Aspen Medical Products."
       />
 
       <Section bg="navy" className="pt-28 md:pt-36" containerClassName="py-0 pb-20 md:pb-24">
@@ -23,9 +23,8 @@ export default function Events() {
             Selected Events & Case Studies
           </h1>
           <p className="mt-6 max-w-xl text-cream/80">
-            Real event photography where available &mdash; remaining
-            placeholders are sized to drop in real photos without breaking
-            the layout.
+            A closer look at recent national and regional sales meetings
+            produced for Aspen Medical Products.
           </p>
         </FadeIn>
       </Section>
