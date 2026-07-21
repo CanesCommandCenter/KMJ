@@ -1,19 +1,30 @@
+import { useState } from "react";
 import { Link, useParams, Navigate } from "react-router-dom";
-import { ArrowLeft, MapPin, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, MapPin, CheckCircle2, Images } from "lucide-react";
 import SEO from "../components/layout/SEO";
 import Section from "../components/ui/Section";
 import FadeIn from "../components/ui/FadeIn";
 import Button from "../components/ui/Button";
 import PlaceholderImage from "../components/ui/PlaceholderImage";
+import Lightbox from "../components/ui/Lightbox";
 import { events } from "../data/events";
 
 export default function EventDetail() {
   const { slug } = useParams();
   const event = events.find((item) => item.slug === slug);
+  const [lightboxIndex, setLightboxIndex] = useState(null);
 
   if (!event) {
     return <Navigate to="/events" replace />;
   }
+
+  const hasGallery = Boolean(event.photos?.length);
+  const coverIndex = hasGallery
+    ? Math.max(
+        event.photos.findIndex((photo) => photo.src === event.coverPhoto),
+        0,
+      )
+    : 0;
 
   return (
     <>
@@ -41,10 +52,28 @@ export default function EventDetail() {
       <Section bg="cream">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-[1.1fr_1fr]">
           <FadeIn>
-            <PlaceholderImage
-              label={`${event.title} — photo placeholder`}
-              aspect="aspect-[4/3]"
-            />
+            {hasGallery ? (
+              <button
+                type="button"
+                onClick={() => setLightboxIndex(coverIndex)}
+                className="group relative block w-full overflow-hidden rounded-xl"
+              >
+                <img
+                  src={event.coverPhoto}
+                  alt={event.title}
+                  className="aspect-[4/3] w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <span className="absolute bottom-4 right-4 inline-flex items-center gap-2 rounded-full bg-navy/80 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-cream backdrop-blur-sm transition-colors group-hover:bg-navy">
+                  <Images className="h-3.5 w-3.5" />
+                  View all {event.photos.length} photos
+                </span>
+              </button>
+            ) : (
+              <PlaceholderImage
+                label={`${event.title} — photo placeholder`}
+                aspect="aspect-[4/3]"
+              />
+            )}
           </FadeIn>
           <FadeIn delay={0.1}>
             <h2 className="text-2xl font-semibold text-navy">Highlights</h2>
@@ -63,6 +92,15 @@ export default function EventDetail() {
           <Button to="/contact">Let&rsquo;s Connect</Button>
         </FadeIn>
       </Section>
+
+      {hasGallery && lightboxIndex !== null && (
+        <Lightbox
+          photos={event.photos}
+          index={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+          onNavigate={setLightboxIndex}
+        />
+      )}
     </>
   );
 }

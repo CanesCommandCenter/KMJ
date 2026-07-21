@@ -131,7 +131,16 @@ export default function Home() {
           {featuredEvents.map((event, index) => (
             <FadeIn key={event.slug} delay={index * 0.08}>
               <Link to={`/events/${event.slug}`} className="group block">
-                <PlaceholderImage label={`${event.title} — photo placeholder`} />
+                {event.coverPhoto ? (
+                  <img
+                    src={event.coverPhoto}
+                    alt={event.title}
+                    loading="lazy"
+                    className="aspect-[4/3] w-full rounded-xl object-cover"
+                  />
+                ) : (
+                  <PlaceholderImage label={`${event.title} — photo placeholder`} />
+                )}
                 <h3 className="mt-4 text-lg font-semibold text-navy group-hover:text-gold-dark">
                   {event.title}
                 </h3>

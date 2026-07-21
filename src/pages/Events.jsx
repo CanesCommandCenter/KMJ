@@ -23,8 +23,9 @@ export default function Events() {
             Selected Events & Case Studies
           </h1>
           <p className="mt-6 max-w-xl text-cream/80">
-            Photos below are placeholders sized to drop in real event
-            photography without breaking the layout.
+            Real event photography where available &mdash; remaining
+            placeholders are sized to drop in real photos without breaking
+            the layout.
           </p>
         </FadeIn>
       </Section>
@@ -34,10 +35,19 @@ export default function Events() {
           {events.map((event, index) => (
             <FadeIn key={event.slug} delay={index * 0.08}>
               <Link to={`/events/${event.slug}`} className="group block">
-                <PlaceholderImage
-                  label={`${event.title} — photo placeholder`}
-                  aspect="aspect-[16/10]"
-                />
+                {event.coverPhoto ? (
+                  <img
+                    src={event.coverPhoto}
+                    alt={event.title}
+                    loading="lazy"
+                    className="aspect-[16/10] w-full rounded-xl object-cover"
+                  />
+                ) : (
+                  <PlaceholderImage
+                    label={`${event.title} — photo placeholder`}
+                    aspect="aspect-[16/10]"
+                  />
+                )}
                 <div className="mt-5">
                   <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gold-dark">
                     <MapPin className="h-3.5 w-3.5" />

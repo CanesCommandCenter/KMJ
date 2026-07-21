@@ -1,5 +1,54 @@
 export const events = [
   {
+    slug: "aspen-national-sales-meeting-2022",
+    title: "Aspen Medical Products National Sales Meeting",
+    location: "Huntington Beach, CA",
+    year: "March 2022",
+    summary:
+      "Produced a three-day national sales meeting for Aspen Medical Products, from general sessions and breakout trainings to a themed welcome reception and closing awards gala.",
+    details: [
+      "Coordinated the full multi-day program, including general sessions, breakout trainings, and evening receptions.",
+      "Produced “Amp’d Up,” a themed welcome reception on the beach with branded merchandise and entertainment.",
+      "Managed “The ASPYs,” an internal awards dinner recognizing top sales performance.",
+      "Handled on-site logistics, vendor coordination, and staging across the full event.",
+    ],
+    coverPhoto: "/images/events/aspen-nsm-2022/03-venue-sunset-setup.jpg",
+    photos: [
+      {
+        src: "/images/events/aspen-nsm-2022/01-arrival-session.jpg",
+        alt: "General session room set up with rows of chairs facing the stage",
+      },
+      {
+        src: "/images/events/aspen-nsm-2022/02-general-session.jpg",
+        alt: "Attendees at the Amp'd Up general session",
+      },
+      {
+        src: "/images/events/aspen-nsm-2022/03-venue-sunset-setup.jpg",
+        alt: "Oceanfront reception venue set up at sunset with string lights and palm trees",
+      },
+      {
+        src: "/images/events/aspen-nsm-2022/04-welcome-reception.jpg",
+        alt: "Amp'd Up 2022 Huntington Beach branded welcome table with t-shirts and amps",
+      },
+      {
+        src: "/images/events/aspen-nsm-2022/05-evening-reception.jpg",
+        alt: "Evening reception on the lawn with string lights",
+      },
+      {
+        src: "/images/events/aspen-nsm-2022/06-breakout-session.jpg",
+        alt: "Breakout training session in progress",
+      },
+      {
+        src: "/images/events/aspen-nsm-2022/07-awards-gala.jpg",
+        alt: "The ASPYs awards dinner with elegant table settings",
+      },
+      {
+        src: "/images/events/aspen-nsm-2022/08-closing-lounge.jpg",
+        alt: "Closing evening lounge with fire pits at sunset",
+      },
+    ],
+  },
+  {
     slug: "newport-beach-film-festival",
     title: "Newport Beach Film Festival",
     location: "Newport Beach, CA",
