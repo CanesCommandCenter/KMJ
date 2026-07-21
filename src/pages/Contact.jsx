@@ -176,11 +176,11 @@ export default function Contact() {
                     kmjohnston92@gmail.com
                   </a>
                   <a
-                    href="tel:+17144693723"
+                    href="tel:+19494697579"
                     className="flex items-center gap-3 text-charcoal/80 hover:text-navy"
                   >
                     <Phone className="h-5 w-5 text-gold-dark" />
-                    (714) 469-3723
+                    (949) 469-7579
                   </a>
                 </div>
               </div>

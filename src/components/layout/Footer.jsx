@@ -56,10 +56,10 @@ export default function Footer() {
               <Mail className="h-4 w-4" /> kmjohnston92@gmail.com
             </a>
             <a
-              href="tel:+17144693723"
+              href="tel:+19494697579"
               className="flex items-center gap-2 transition-colors duration-200 hover:text-gold"
             >
-              <Phone className="h-4 w-4" /> (714) 469-3723
+              <Phone className="h-4 w-4" /> (949) 469-7579
             </a>
             <a
               href="https://www.linkedin.com/in/kjohnston-marketing-pr/"
