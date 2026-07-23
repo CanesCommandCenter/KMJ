@@ -1,9 +1,9 @@
-import { GraduationCap, CheckCircle2, Download } from "lucide-react";
+import { GraduationCap, CheckCircle2, Download, HeartHandshake } from "lucide-react";
 import SEO from "../components/layout/SEO";
 import Section from "../components/ui/Section";
 import Button from "../components/ui/Button";
 import FadeIn from "../components/ui/FadeIn";
-import { timeline, education, skills } from "../data/timeline";
+import { timeline, volunteer, education, skills } from "../data/timeline";
 import headshot from "../assets/images/kelsey-headshot.jpg";
 import OpenToWorkBadge from "../components/ui/OpenToWorkBadge";
 
@@ -86,8 +86,35 @@ export default function About() {
         </div>
       </Section>
 
-      {/* Education + Skills */}
+      {/* Volunteer Experience */}
       <Section bg="creamDark">
+        <FadeIn>
+          <div className="flex items-center gap-3">
+            <HeartHandshake className="h-7 w-7 text-gold-dark" />
+            <h2 className="text-2xl font-semibold text-navy">
+              Volunteer Experience
+            </h2>
+          </div>
+        </FadeIn>
+
+        <div className="mt-8 space-y-8">
+          {volunteer.map((item, index) => (
+            <FadeIn key={`${item.org}-${item.years}`} delay={index * 0.05}>
+              <p className="text-sm font-semibold uppercase tracking-wide text-gold-dark">
+                {item.years}
+              </p>
+              <h3 className="mt-1 text-lg font-semibold text-navy">
+                {item.role} &middot; {item.org}
+              </h3>
+              <p className="text-sm text-charcoal/60">{item.location}</p>
+              <p className="mt-2 max-w-2xl text-charcoal/80">{item.description}</p>
+            </FadeIn>
+          ))}
+        </div>
+      </Section>
+
+      {/* Education + Skills */}
+      <Section bg="cream">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
           <FadeIn>
             <div className="flex items-center gap-3">

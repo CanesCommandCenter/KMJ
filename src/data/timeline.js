@@ -49,6 +49,17 @@ export const timeline = [
   },
 ];
 
+export const volunteer = [
+  {
+    years: "2019 – Present",
+    role: "Event Operations Volunteer",
+    org: "Long Beach Grand Prix",
+    location: "Long Beach, CA",
+    description:
+      "Supports on-track logistics and event-day operations for one of motorsport's premier street races, including landing zone coordination for the U.S. Army Golden Knights parachute team and paddock operations for the IMSA series.",
+  },
+];
+
 export const education = [
   {
     degree:
