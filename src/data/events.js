@@ -1,5 +1,50 @@
 export const events = [
   {
+    slug: "aspen-presidents-council-2026",
+    title: "Aspen Medical Products President's Council (2026)",
+    location: "Bozeman, MT",
+    year: "May 2026",
+    summary:
+      "Produced Aspen Medical Products' 2026 President's Council retreat at Gallatin River Lodge in Bozeman, Montana, a top-performer recognition trip featuring fly fishing, spa treatments, and a celebratory dinner.",
+    details: [
+      "Planned and coordinated a multi-day retreat recognizing top company leadership and performance, including lodging, dining, and activity logistics.",
+      "Organized guided fly fishing excursions and on-site spa treatments for attendees.",
+      "Coordinated welcome and celebratory dinners, including reservations at local Bozeman restaurants.",
+      "Managed vendor coordination and on-site guest experience at Gallatin River Lodge.",
+    ],
+    coverPhoto: "/images/events/aspen-presidents-council-2026/03-fly-fishing-departure.jpg",
+    photos: [
+      {
+        src: "/images/events/aspen-presidents-council-2026/01-welcome-hats-display.jpg",
+        alt: "Welcome display of hats with a mountain lake view",
+      },
+      {
+        src: "/images/events/aspen-presidents-council-2026/02-welcome-hats-detail.jpg",
+        alt: "Detail of the welcome hat display",
+      },
+      {
+        src: "/images/events/aspen-presidents-council-2026/03-fly-fishing-departure.jpg",
+        alt: "Group departing for a guided fly fishing trip at Gallatin River Lodge",
+      },
+      {
+        src: "/images/events/aspen-presidents-council-2026/04-dinner-friday.jpg",
+        alt: "Group dinner at a local Bozeman restaurant",
+      },
+      {
+        src: "/images/events/aspen-presidents-council-2026/05-celebratory-dinner.jpg",
+        alt: "President's Council celebratory dinner",
+      },
+      {
+        src: "/images/events/aspen-presidents-council-2026/06-lodge-welcome-materials.jpg",
+        alt: "Welcome materials and agenda at Gallatin River Lodge",
+      },
+      {
+        src: "/images/events/aspen-presidents-council-2026/07-presidents-council-card.jpg",
+        alt: "Happy President's Council welcome card",
+      },
+    ],
+  },
+  {
     slug: "aspen-national-sales-meeting-2026",
     title: "Aspen Medical Products National Sales Meeting (2026)",
     location: "Huntington Beach, CA",
